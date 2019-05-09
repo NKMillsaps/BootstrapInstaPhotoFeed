@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>Bootstrap IG Page</title>
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+   </head>
+   <body>
+       <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="space-filler col-md-1">
+                </div>
+                <i class="fab fa-instagram mr-2"></i>
+                <a class="navbar-brand" href="#"><b>Instagram</b></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>
+                    <form class="form-inline my-2 my-lg-0">
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalScrollable">Create a new post</button>
+                            <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                <div class="modal-content">
+                                <div class="modal-header p-1">
+
+                                <!-- <h5 class="modal-title" id="exampleModalScrollableTitle">Modal title</h5> -->
+
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+
+                        <div class="input-group mb-3 border border-primary">
+                        <input type="text" class="form-control" aria-describedby="basic-addon2">
+                        </div>
+                            <div class="col">
+                            <i class="fas fa-camera"></i>
+                            <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-light" data-dismiss="modal">Save</button>
+                            <button type="button" class="btn btn-success">Post</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+
+
+                    <div class="dropdown">
+                        <button class="dropdown-toggle btn btn-light" type="button" id="dropdownMenuButton" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+                          <i class="fas fa-cog"></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-lg-right" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Settings</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Log Out</a>
+                        </div>
+                    </div>
+                    </form>
+                            </div>
+                                    <div class="space-filler col-md-1"></div>
+                        </nav>
+                        </div>
+
+                        <div class="container">
+                            <div class="pills bg-transparent">
+                                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <div class="space-filler col-md-5"></div>
+                            <li class="nav-item">
+                                <a class="nav-link active p-3 bg-transparent text-dark" id="pills-gridview-tab" data-toggle="pill" href="#pills-gridview" role="tab" aria-controls="pills-gridview" aria-selected="true"><i class="fas fa-th fa-1x"></i></a></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-3 bg-transparent text-dark" id="pills-singleview-tab" data-toggle="pill" href="#pills-singleview" role="tab" aria-controls="pills-singleview" aria-selected="false"><i class="fas fa-portrait fa-1x"></i></a></a>
+                            </li>
+                            <div class="space-filler col-md-5"></div>
+                        </ul>
+                </div>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-gridview" role="tabpanel" aria-labelledby="pills-gridview-tab">
+                       <div class="row">
+                           <div class="col"><img src="https://www.w3schools.com/html/img_chania.jpg" class="img-thumbnail" alt="Cinque Terre"></div>
+                           <div class="col"><img src="https://images.unsplash.com/photo-1517148815978-75f6acaaf32c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="img-thumbnail" alt="Cinque Terre"></div>
+                           <div class="col"><img src="https://www.w3schools.com/html/img_chania.jpg" class="img-thumbnail" alt="Cinque Terre"></div>
+                       </div>
+                        <div class="row">
+                           <div class="col"><img src="https://images.unsplash.com/photo-1529101091764-c3526daf38fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1191&q=80" class="img-thumbnail" alt="Cinque Terre"></div>
+                           <div class="col"><img src="https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="img-thumbnail" alt="Cinque Terre"></div>
+                           <div class="col"><img src="https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="img-thumbnail" alt="Cinque Terre"></div>
+                       </div>
+                        <div class="row">
+                           <div class="col"><img src="https://www.w3schools.com/html/img_chania.jpg" class="img-thumbnail" alt="Cinque Terre"></div>
+                           <div class="col"><img src="https://images.unsplash.com/photo-1542304813-922a8025d72a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" class="img-thumbnail" alt="Cinque Terre"></div>
+                           <div class="col"><img src="https://images.unsplash.com/photo-1528292585222-33d2f5b8669c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=925&q=80" class="img-thumbnail" alt="Cinque Terre"></div>
+                       </div>
+                    </div>
+
+
+
+
+                    <div class="tab-pane fade" id="pills-singleview" role="tabpanel" aria-labelledby="pills-singleview-tab">
+                        <div class="row">
+                            <div class="col-sm-6 m-auto">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="float-left"><p class="text-left">My first photo</p></div>
+                                        <div class="float-right"><p class="text-right">12/14</p></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div>
+                                            <img src="https://www.w3schools.com/html/img_chania.jpg" class="img-thumbnail" alt="Cinque Terre">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 float-left">
+                                                <i class="far fa-heart fa-2x"></i>
+                                                <i class="far fa-comment fa-2x"></i>
+                                                <i class="far fa-paper-plane fa-2x"></i>
+                                            </div>
+                                            <div class="col-md-6 float-right text-right">
+                                                <i class="far fa-bookmark fa-2x"></i>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                        <div class="card-footer text-muted">
+                                            <p> This is my first photo on the Instagram Page</p>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                    </div>
+
+                </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   </body>
+</html>
+
